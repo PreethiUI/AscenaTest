@@ -1,0 +1,26 @@
+<html lang="en">
+  <head>
+    <link href="main.css" rel="stylesheet" type="text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="donatepage.js"></script>
+    <title>Ascena Test</title>
+  <head>
+  <body>
+    <h1>Donate for a Cause</h1>
+    <div class="progresscontainer">
+      <meter id="progressbar" value="2" min="0" max="100"></meter>
+    </div>
+    <div class="container">
+      <p><span class="highlight"> Only <span class="stylenum">3</span> days left</span> for funding this project</p><br>
+      <p>Join the <span class="stylenum">42</span> other donors who have helped this project.Every dollar helps.</p><br>
+      <input type="number" id="amount"min="1" >
+      <button id="submitButton" type="submit"> Give Now </button><br><br>
+      <p  id="subNote">Why give ?</p>
+    </div>
+
+    <div class="buttoncontainer">
+      <button id="saveButton">Save for Later </button>
+      <button id="inviteButton"> Tell your friends </button>
+    </div>
+  </body>
+</html>

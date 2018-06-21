@@ -1,0 +1,105 @@
+/* Global resets */
+* {box-sizing: border-box; margin: 0; padding: 0;}
+body {font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif; color: #424242; line-height: 1.4;}
+
+/* Fonts */
+
+h1 {
+  font-family: "rooney-web", 'AmericanTypewriter', Rockwell, serif;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.progresscontainer {
+  margin: 2em auto;
+  max-width: 540px;
+  text-align: center;
+  border:1px solid lightgrey;
+}
+
+
+#progressbar  {
+  width :100%;
+  height: 2%;
+  color: #EF5F3C;
+}
+
+  meter::-webkit-meter-optimum-value {
+    background: #EF5F3C;
+  }
+
+.container {
+  margin: 2em auto;
+  max-width: 540px;
+  text-align: center;
+  border:1px solid lightgrey;
+  padding: 60px;
+}
+
+p {
+  font-family:  Calibri;
+  color: #777;
+  text-align:left;
+}
+
+.stylenum {
+  font-variant-numeric: oldstyle-nums;
+  font-weight: bold;
+}
+
+.highlight {
+  color : #EF5F3C;
+  font-family: "rooney-sans";
+  font-weight: bold;
+}
+
+/* COLORS:
+  black: #424242;
+  grey: #777;
+  light grey: #eaeaea;
+*/
+
+/* Your CSS goes here */
+
+#submitButton {
+  background-color:#1CBC2C;
+  color: white;
+}
+
+.buttoncontainer {
+  margin: 2em auto;
+  max-width: 630px;
+  text-align: center;
+  border:2px;
+  padding:10px;
+}
+
+button {
+  width:40%;
+  padding:12px;
+  border:0;
+  background-color:#eaeaea;
+  color:#777;
+  border-radius:4px;
+  font-weight: bold;
+  font-family: Calibri;
+  font-size:15px;
+}
+
+input {
+  padding:12px;
+  float:left;
+  border:1px solid grey;
+  border-radius : 4px;
+}
+
+#inviteButton {
+  margin-left: 40px;
+}
+
+#subNote {
+  font-style: oblique;
+  color:#20A1D4;
+  text-align:left;
+}
